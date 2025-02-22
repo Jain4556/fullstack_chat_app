@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* src/index.css */
+
+[data-theme="cupcake"] {
+    --color-primary: oklch(73.95% 0.19 325.82); /* From daisyUI cupcake theme */
+  }
+  [data-theme="forest"] {
+    --color-primary: oklch(52.39% 0.146 143.84); /* From daisyUI forest theme */
+  }
