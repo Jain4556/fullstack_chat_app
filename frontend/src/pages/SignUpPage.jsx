@@ -42,8 +42,9 @@ const SignUpPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex justify-start items-center px-10 pl-32">
+    <div className="h-screen grid lg:grid-cols-2">
       {/* Left-aligned form container */}
+      <div className="flex flex-col justify-center items-center p-6 sm:p-12">
       <div className="w-full max-w-md space-y-8">
         {/* LOGO & TITLE (Text remains centered) */}
         <div className="text-center mb-8">
@@ -59,6 +60,7 @@ const SignUpPage = () => {
               Get started with your free account
             </p>
           </div>
+          </div>
         </div>
 
         {/* FORM */}
@@ -66,7 +68,7 @@ const SignUpPage = () => {
           {/* Full Name */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text font-medium text-center w-full">
+              <span className="label-text font-medium">
                 Full Name
               </span>
             </label>
@@ -89,7 +91,7 @@ const SignUpPage = () => {
           {/* Email */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text font-medium text-center w-full">
+              <span className="label-text font-medium">
                 Email
               </span>
             </label>
@@ -112,7 +114,7 @@ const SignUpPage = () => {
           {/* Password */}
           <div className="form-control">
             <label className="label">
-              <span className="label-text font-medium text-center w-full">
+              <span className="label-text font-medium">
                 Password
               </span>
             </label>
